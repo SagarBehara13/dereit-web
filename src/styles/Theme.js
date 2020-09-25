@@ -22,8 +22,8 @@ export const space = [
 
 export const fonts = {
   sans: 'Karla, sans-serif',
-  serif: 'GT Super Display, Georgia, serif',
-  serifText: 'GT Super Text, GT Super Display, Georgia, serif',
+  serif: 'Playfair Display, serif',
+  serifText: 'Playfair Display, serif',
   headings: 'Rubik, sans-serif',
   body: "system-ui, sans-serif",
   heading: "inherit",
@@ -31,13 +31,14 @@ export const fonts = {
 }
 
 export const fontSizes = [
-  16,
+  12,
+  15,
   18,
   20,
-  24,
   28,
   42,
-  48,
+  52,
+  96
 ]
 
 export const header = {
