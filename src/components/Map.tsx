@@ -6,7 +6,7 @@ import React, { useEffect, useRef } from 'react'
 MapboxGl.accessToken = process.env.MAPBOX_API_TOKEN
 
 interface MapProps {
-  mapRef(ref: MapboxGl.Map): MapboxGl.Map
+  mapRef(ref: MapboxGl.Map): any
 }
 
 const Map: React.FC<MapProps> = props => {
