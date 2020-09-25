@@ -82,11 +82,14 @@ const Property: React.FC<Props> = ({ property }) => {
       >
         <Text as="h3">{property.name}</Text>
         <P>
-          <strong>Area</strong> {property.surfaceArea}m<sup>2</sup>
+          <>
+            {property.surfaceArea}m<sup>2</sup> area
+          </>{' '}
+          <>
+            ${pricePerMeter.toFixed(2)}/m<sup>2</sup>
+          </>
         </P>
-        <P>
-          <strong>Price per Meter</strong> {pricePerMeter}
-        </P>
+        <P>${rentPerMonth} monthly rent</P>
       </Flex>
     </Flex>
   )
