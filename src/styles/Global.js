@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import { reboot } from 'styled-reboot';
 import Theme from './Theme';
+import './external.css';
 
 const GlobalStyle = createGlobalStyle`
 
@@ -13,20 +14,6 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
     width: 100%;
     position: absolute;
-    overflow: hidden;
-  }
-
-  body {
-    background: rgb(133,202,204);
-    background: radial-gradient(circle, rgba(133,202,204,1) 0%, rgba(89,174,177,1) 100%);
-  }
-
-  [data-scrollbar] {
-    height: 100%;
-  }
-
-  .scrollbar-track {
-    visibility: hidden;
   }
 
   ::selection {
